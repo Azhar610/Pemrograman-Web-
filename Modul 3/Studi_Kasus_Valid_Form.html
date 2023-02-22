@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Judul Lagi bng </title>
+        <style>
+            h2 {font-family: arial;}
+            form {font-family: Calibri, 'Trebuchet MS', sans-serif;}
+        </style>
+    </head>
+    <body>
+        <h2>Studi Kasus: Validasi Input HTML5</h2>
+        <form action="" method="post">
+            <table>
+                <tr>
+                    <td>Nama </td>
+                    <td>:</td>
+                    <td><input type="text" name="nama" placeholder="Isikan Nama Anda" size="30" pattern="[A-Za-z ]+" required></td>
+                </tr>
+                <tr>
+                    <td>Usia </td>
+                    <td>:</td>
+                    <td><input type="number" name="Usia" size="5" min="17" max="30" required>(Usia min 17-30)</td>
+                </tr>
+                <tr>
+                    <td>Email </td>
+                    <td>:</td>
+                    <td><input type="email" name="Email" placeholder="nama_email@host.com" size="30" required></td>
+                </tr>
+                <tr>
+                    <td>Web</td>
+                    <td>:</td>
+                    <td><input type="text" name="Web" placeholder="http://" size="40" required></td>
+                </tr>
+                <tr>
+                    <td>Password</td>
+                    <td>:</td>
+                    <td><input type="text" name="Password" placeholder="Semua Karakter , min 8" required></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td><input type="submit" value="Submit"></td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
